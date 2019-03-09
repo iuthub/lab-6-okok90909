@@ -16,16 +16,54 @@
 		
 		<h2>Please, fill below fields correctly</h2>
 		<dl>
-			<dt>Name</dt>
+			<form action="index.php" method="post">
+			<dt>Name: </dt>
 			<dd>
-				???
+				<input type="text" name="name">
+			</dd>
+			<dt>Email: </dt>
+			<dd>
+				<input type="text" name="email">
+			</dd>
+			<dt>Username: </dt>
+			<dd>
+				<input type="text" name="username">
+			</dd>
+			<dt>Password: </dt>
+			<dd>
+				<input type="text" name="password">
+			</dd>
+			<dt>Conﬁrm Password : </dt>
+			<dd>
+				<input type="text" name="confirm_password">
+			</dd>
+			<dt>Date of Birth: </dt>
+			<dd>
+				<input type="text" name="birthdate">
+			</dd>
+			<dt>Gender: </dt>
+			<dd>
+				<input type="text" name="gender">
+			</dd>
+			<dt>Marital Status: </dt>
+			<dd>
+				<input type="text" name="mstatus">
+			</dd>
+			<dt>Postal Code: </dt>
+			<dd>
+				<input type="text" name="postal">
+			</dd>
+			<dt>Credit Card Number: </dt>
+			<dd>
+				<input type="text" name="ccnumber">
 			</dd>
 			
 			<!-- Write other fiels similar to Name as specified in lab6.pdf -->
 		</dl>
 		
-		<div>
-			Register
-		</div>
+			<div>
+				<input type="submit" value="Register">
+			</div>
+		</form>
 	</body>
 </html>
