@@ -10,7 +10,7 @@ function remove_newlines($text){
  }
 function inside_parenthesis($text){
 	preg_match("/\[(.*)\]/", $text, $match);
-	return $match[1];
+	return isset($match[1]) ? $match[1] : "";
 // 	return preg_replace("/\](*.)/", "", preg_replace("/(*.)\[/", "", $text));
  }
 	$pattern="";
